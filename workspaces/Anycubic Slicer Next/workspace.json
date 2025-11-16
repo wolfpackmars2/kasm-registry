@@ -1,0 +1,33 @@
+{
+  "description": "A modified version of Orca Slicer for some Anycubic 3D Printers.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "anycubic-slicer-icon.png",
+  "run_config": {
+    "hostname": "kasm"
+  },
+  "exec_config": {
+    "go": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
+    },
+    "assign": {
+      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
+    }
+  },
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "Anycubic Slicer",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "kasmweb/chromium:develop",
+      "uncompressed_size_mb": 2170,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ]
+}
