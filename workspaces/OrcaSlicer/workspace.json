@@ -1,0 +1,24 @@
+{
+  "description": "OrcaSlicer G-code generator for 3D printers",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "OrcaSlicer.svg",
+  "categories": [
+    "Productivity"
+  ],
+  "friendly_name": "OrcaSlicer",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "sgroesz/orcaslicer-kasm:1.18",
+      "uncompressed_size_mb": 3428,
+      "available_tags": [
+        "1.18.0",
+        "1.18.0-rolling-weekly",
+        "1.18.0-dev"
+      ]
+    }
+  ]
+}
