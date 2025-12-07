@@ -17,7 +17,8 @@
       "available_tags": [
         "1.18.0",
         "1.18.0-rolling-weekly",
-        "1.18.0-dev"
+        "1.18.0-dev",
+        "1.18.0-qt"
       ]
     }
   ]
