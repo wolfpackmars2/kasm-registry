@@ -12,7 +12,7 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "sgroesz/orcaslicer-kasm:1.18",
+      "image": "sgroesz/orcaslicer-kasm:1.18.0",
       "uncompressed_size_mb": 3428,
       "available_tags": [
         "1.18.0",

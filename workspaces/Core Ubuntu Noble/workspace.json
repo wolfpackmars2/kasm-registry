@@ -1,0 +1,35 @@
+{
+  "description": "Ubuntu 24.04: Noble core image provided by KASM.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "ubuntu_linux.svg",
+  "run_config": {
+    "hostname": "noble-core"
+  },
+  "exec_config": {
+    "first_launch": {
+      "user": "root",
+      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
+    }
+  },
+  "categories": [
+    "Development"
+  ],
+  "friendly_name": "Core Ubuntu Noble",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "kasmweb/core-ubuntu-noble:1.18.0",
+      "cores": 2,
+      "memory": 2048,
+      "uncompressed_size_mb": 1100,
+      "available_tags": [
+        "1.18.0",
+        "1.18.0-rolling-daily",
+        "1.18.0-rolling-weekly"
+      ]
+    }
+  ]
+}
