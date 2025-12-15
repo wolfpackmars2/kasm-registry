@@ -1,5 +1,5 @@
 {
-  "description": "Anycubic Slicer Next",
+  "description": "Anycubic Slicer Next. No SUDO access.",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "anycubic-slicer.svg",
   "categories": [
@@ -12,12 +12,12 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "sgroesz/anycubic-slicer-next-kasm:1.18.0",
-      "uncompressed_size_mb": 3428,
+      "image": "sgroesz/anycubic-slicer-next-kasm:1.18.0-current",
+      "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
-        "1.18.0-rolling-weekly",
-        "1.18.0-dev"
+        "1.18.0-dev",
+        "1.18.0-current"
       ]
     }
   ]

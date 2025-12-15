@@ -1,5 +1,5 @@
 {
-  "description": "Debian Linux 13: Trixie core image provided by KASM.",
+  "description": "Debian Linux 13: Trixie core image provided by KASM. For testing and development of new workspaces.",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "debian_linux.svg",
   "run_config": {
@@ -21,10 +21,10 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "kasmweb/core-debian-trixie:1.18.0",
+      "image": "kasmweb/core-debian-trixie:1.18.0-rolling-daily",
       "cores": 2,
       "memory": 2048,
-      "uncompressed_size_mb": 1100,
+      "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
         "1.18.0-rolling-daily",

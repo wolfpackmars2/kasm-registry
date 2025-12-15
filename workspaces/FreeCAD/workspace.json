@@ -12,12 +12,13 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "sgroesz/freecad-kasm:1.18.0",
-      "uncompressed_size_mb": 3428,
+      "image": "sgroesz/freecad-kasm:1.18.0-current",
+      "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
         "1.18.0-rolling-weekly",
-        "1.18.0-dev"
+        "1.18.0-dev",
+        "1.18.0-current"
       ]
     }
   ]

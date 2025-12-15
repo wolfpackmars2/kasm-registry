@@ -5,12 +5,6 @@
   "run_config": {
     "hostname": "noble-dind"
   },
-  "exec_config": {
-    "first_launch": {
-      "user": "root",
-      "cmd": "bash -c 'echo \"kasm-user  ALL=(ALL) NOPASSWD: ALL\" >> /etc/sudoers'"
-    }
-  },
   "categories": [
     "Development"
   ],
@@ -21,11 +15,13 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "kasmweb/core-ubuntu-noble:1.18.0",
+      "image": "sgroesz/ubuntu-noble-dind-kasm:1.18.0-current",
       "cores": 4,
       "memory": 4096,
-      "uncompressed_size_mb": 1700,
+      "uncompressed_size_mb": 1234,
       "available_tags": [
+        "1.18.0",
+        "1.18.0-dev",
         "1.18.0-current"
       ]
     }
