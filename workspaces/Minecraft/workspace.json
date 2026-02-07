@@ -1,0 +1,24 @@
+{
+  "description": "Solvespace parametric 2d/3d CAD",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "minecraft.jpg",
+  "categories": [
+    "Games"
+  ],
+  "friendly_name": "Minecraft",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "sgroesz/minecraft-kasm:1.18.0-current",
+      "uncompressed_size_mb": 1234,
+      "available_tags": [
+        "1.18.0",
+        "1.18.0-dev",
+        "1.18.0-current"
+      ]
+    }
+  ]
+}
