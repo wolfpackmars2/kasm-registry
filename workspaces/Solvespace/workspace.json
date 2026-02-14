@@ -12,12 +12,11 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "sgroesz/solvespace-kasm:1.18.0-current",
+      "image": "sgroesz/solvespace-kasm:1.18.0-latest",
       "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
-        "1.18.0-dev",
-        "1.18.0-current"
+        "1.18.0-latest"
       ]
     }
   ]
