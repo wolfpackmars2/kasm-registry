@@ -1,0 +1,28 @@
+{
+  "description": "Alpine 3.21: Base image desktop for test and development of new workspaces.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "alpine_linux.png",
+  "run_config": {
+    "hostname": "alpine-base"
+  },
+  "categories": [
+    "Development"
+  ],
+  "friendly_name": "Alpine Desktop Base",
+  "architecture": [
+    "amd64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "sgroesz/kasm-alpine-desktop-basic:1.18.0-latest",
+      "cores": 2,
+      "memory": 2048,
+      "uncompressed_size_mb": 3000,
+      "available_tags": [
+        "1.18.0",
+        "1.18.0-latest"
+      ]
+    }
+  ]
+}
