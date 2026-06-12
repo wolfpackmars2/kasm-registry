@@ -1,7 +1,7 @@
 {
-  "description": "Solvespace parametric 2d/3d CAD",
+  "description": "Minecraft Java Edition sandbox game",
   "docker_registry": "https://index.docker.io/v1/",
-  "image_src": "minecraft.jpg",
+  "image_src": "minecraft.png",
   "categories": [
     "Games"
   ],
