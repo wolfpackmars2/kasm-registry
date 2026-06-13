@@ -16,7 +16,6 @@
       "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
-        "1.18.0-daily",
         "1.18.0-latest"
       ]
     }

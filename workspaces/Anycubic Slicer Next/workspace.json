@@ -12,7 +12,7 @@
   "compatibility": [
     {
       "version": "1.18.x",
-      "image": "sgroesz/anycubic-slicer-next-kasm:1.18.0-latest",
+      "image": "sgroesz/kasm-anycubic-slicer-next:1.18.0-latest",
       "uncompressed_size_mb": 1234,
       "available_tags": [
         "1.18.0",
