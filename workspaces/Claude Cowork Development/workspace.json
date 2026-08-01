@@ -1,0 +1,36 @@
+{
+  "description": "Ubuntu 24.04 development desktop with Chrome, VS Code, Claude Desktop, and the host virtualization devices required by Claude Cowork.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "ubuntu_linux.svg",
+  "run_config": {
+    "hostname": "claude-cowork-dev",
+    "devices": [
+      "/dev/kvm:/dev/kvm:rwm",
+      "/dev/vhost-vsock:/dev/vhost-vsock:rwm"
+    ],
+    "group_add": [
+      "sgx",
+      "kvm"
+    ]
+  },
+  "categories": [
+    "Development"
+  ],
+  "friendly_name": "Claude Cowork Development",
+  "architecture": [
+    "amd64"
+  ],
+  "notes": "Requires /dev/kvm and /dev/vhost-vsock on the selected Kasm agent, the host vhost_vsock kernel module, and device GIDs matching the sgx/kvm groups in the image. This grants the workspace direct hardware virtualization access. Run cowork-kasm-diagnose inside the workspace before starting Cowork.",
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "sgroesz/kasm-noble-cowork-dev-desktop:1.18.0-latest",
+      "cores": 4,
+      "memory": 8192,
+      "uncompressed_size_mb": 6600,
+      "available_tags": [
+        "1.18.0-latest"
+      ]
+    }
+  ]
+}
